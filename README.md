@@ -6,14 +6,16 @@ Snow groundwater interactions
 
 ### Collaborators on this project
 Project lead: Nina Aragon
+
 Data science lead: Emilio Mayorga
-Collaborators: Jezra Beaulieu, Ravi Appana, Pranav Bhardwaj, Morgan Levy, Tony Castronova, Prajjwal Panday
+
+Science team: Jezra Beaulieu, Ravi Appana, Pranav Bhardwaj, Morgan Levy, Tony Castronova, Prajjwal Panday
 
 ### The problem
 Several studies have shown that snowmelt is more effective at recharging groundwater stores than rain in mountain watersheds. The majority of snow-groundwater studies in snow-dominant mountain regions have been conducted at high elevation sites in CO. While snow-derived waters from these locations are vital to water supplies in the Western US, high elevation snowpacks are less at risk of disappearance due to increased temperatures associated with climate change. Warming temperatures associated with climate change have already caused significant declines in snowpack, and an increased fraction of the total precipitation falling as rain instead of snow. In particular, low-elevation snow in the mid latitudes of the PNW is projected to be at-risk of disappearing (falling as rain). 
  
 ### Application Example
-List one specific application of this work.
+This project could build tools that allow users to rapidly evaluate snow, and groundwater outputs from the National Water Model and identify regional variations in model performance. 
 
 ### Sample data
 [USGS well data and stream gauge data](https://waterdata.usgs.gov/nwis)
@@ -34,9 +36,10 @@ Remotely sensed data
 3. Automate workflows so this analysis could be applied to any watershed in the CONUS. 
 
 ### Existing methods
-How would you or others traditionally try to address this problem?
+Modeling, isotope analysis
 
 ### Proposed methods/tools
 [Pydrograph](https://github.com/aleaf/pydrograph)
+
 [ULMO](https://github.com/ulmo-dev/ulmo)
 
