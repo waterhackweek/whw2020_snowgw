@@ -25,7 +25,7 @@ This project could build tools that allow users to rapidly evaluate snow, and gr
 [National Water Model output](http://thredds.hydroshare.org/thredds/catalog.html)
 
 ### Specific Aims
-1. Characterize the relationship precipitation phase (snow/rain) and groundwater recharge in two mountain watersheds, one in a continental snow climate, one in a maritime snow climate
+1. Characterize the relationship between precipitation phase (snow/rain) and groundwater recharge in two mountain watersheds, one in a continental snow climate, one in a maritime snow climate
 
 2. Evaluate the ability of the National Water Model to capture snow and groundwater trends within our study watersheds by comparing model output to:
 
