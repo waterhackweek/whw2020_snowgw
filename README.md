@@ -14,7 +14,7 @@ Science team: Jezra Beaulieu, Ravi Appana, Pranav Bhardwaj, Morgan Levy, Tony Ca
 Several studies have shown that snowmelt is more effective at recharging groundwater stores than rain in mountain watersheds. The majority of snow-groundwater studies in snow-dominant mountain regions have been conducted at high elevation sites in CO. While snow-derived waters from these locations are vital to water supplies in the Western US, high elevation snowpacks are less at risk of disappearance due to increased temperatures associated with climate change. Warming temperatures associated with climate change have already caused significant declines in snowpack, and an increased fraction of the total precipitation is falling as rain instead of snow. In particular, low-elevation snow in the mid latitudes of the PNW is projected to be at-risk of disappearing (falling as rain). 
  
 ### Application Example
-This project develops tools that allow users to streamline data aquisition from CUAHSI HydroClient, USGS, and NRCS SNOTEL data portals to rapidly evaluate snowpack, streamflow and groundwater levels. 
+This project develops tools that allow users to streamline data aquisition from CUAHSI HydroClient, USGS, and NRCS SNOTEL data portals to rapidly evaluate snowpack, streamflow and groundwater levels. The statistical analysis applied to these data in the Clackamas River watershed can then be applied to other watersheds of interest. 
 
 ### Sample data
 [USGS well data and stream gauge data](https://waterdata.usgs.gov/nwis)
@@ -33,8 +33,14 @@ This project develops tools that allow users to streamline data aquisition from 
 ### Existing methods
 Modeling, isotope analysis
 
-### Proposed methods/tools
-[Pydrograph](https://github.com/aleaf/pydrograph)
+### Data Sources
+Data Sources:
 
-[ULMO](https://github.com/ulmo-dev/ulmo)
+HUC8 basin boundaries (and associated HUC10 and HUC12 sub-basins)
+Daymet precipitation and SWE (gridded, daily)
+MODIS SSEBop evapotranspiration (gridded, monthly)
+GRACE water storage anomalies (gridded, monthly)
+USGS NWIS discharge (point, daily)
+USGS groundwater level measurements (point, daily)
+SNOTEL SWE (point, daily)
 
